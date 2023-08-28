@@ -1,0 +1,35 @@
+html, body{
+    height: 100vh;
+    margin: 0;
+}
+
+.logo, .text-odin, .background, .black, .sidebar{
+    position: absolute;
+    z-index: 1;
+}
+
+.sidebar{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.leaf{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background{
+    width: 100%;
+    height: 17%;
+    top: 20%; 
+
+}
+
+.black{
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+}
