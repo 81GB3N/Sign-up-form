@@ -5,6 +5,7 @@
 
 html, body{
     height: 100vh;
+    display: flex;
     margin: 0;
 }
 
@@ -62,4 +63,17 @@ html, body{
 .logo{
     width: 68px;
     height: auto;
+}
+
+.main-field{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    position: absolute;
+    left: 30vw;
+}
+fieldset{
+    border: 0;
 }
