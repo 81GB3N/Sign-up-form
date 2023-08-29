@@ -107,7 +107,9 @@ html, body{
 }
 
 input:focus{
+    outline: none;
     border-color: rgb(138, 138, 255);
+    box-shadow: 3px 3px 3px rgb(170, 170, 255);
 }
 
 input{
