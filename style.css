@@ -168,3 +168,17 @@ a{
 .create-account:active{
     transform: scale(0.97);
 }
+
+input:invalid{
+    border-color: red;
+}
+
+
+.password-match{
+    margin: 0;
+    color: white;
+}
+
+#password{
+    margin-bottom: 1px;
+}
