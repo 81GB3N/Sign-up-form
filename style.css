@@ -1,3 +1,8 @@
+:root{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 @font-face {
     font-family: norse;
     src: url(Norse-Bold.otf);
@@ -110,6 +115,7 @@ input{
     padding: 0;
     border-style: none;
     border: 2px solid #E5E7EB; 
+    margin-bottom: 4%;
 }
 
 button:hover{
@@ -120,14 +126,12 @@ button:hover{
 
 .account-info{
     margin-top: 4%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     margin-bottom: auto;
 }
 
 .description{
      margin-top: 10%;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-weight: 500;
     font-size: 1.2rem;
     margin-bottom: 5%;
@@ -144,5 +148,21 @@ a{
 }
 
 .lets{
-    
+    font-size: 1.2rem;
+}
+
+.inputs{
+    display: flex;
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+.left>div, .right>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1px
+}
+
+.create-account:active{
+    transform: scale(0.97);
 }
